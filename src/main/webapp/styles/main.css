@@ -1,0 +1,113 @@
+/* Body and container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    background-color: #2c5f77;
+    height: 10px;
+}
+
+.brand {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.brand img {
+    max-width: 120px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 30px 40px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #2c5f77;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p.lead {
+    color: #444;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #2c5f77;
+    font-size: 1.4em;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* Form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Radio buttons */
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+/* Checkboxes */
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.checkbox-label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+/* Button */
+button[type="submit"],
+.submit-button {
+    background-color: #2c5f77;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover,
+.submit-button:hover {
+    background-color: #1a3a46;
+}
